@@ -28,12 +28,12 @@ variable "sg_description"{
     default = "Allow port number 22 for SSH Acess"
 }
 
-variable " from_port"{
+variable "from_port"{
     default = 22
     type = number
 }
 
-variable " to_port"{
+variable "to_port"{
     default = 22
     type = number
 }
